@@ -15,6 +15,9 @@
         <releaseNotes></releaseNotes>
         <iconUrl>https://chatty.github.io/icons2.png</iconUrl>
         <licenseUrl>https://github.com/chatty/chatty/blob/master/LICENSE</licenseUrl>
+        <dependencies>
+            <dependency id="vcredist2015" version="14.0.24210.0" />
+        </dependencies>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
