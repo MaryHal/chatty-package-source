@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>chatty</id>
+        <version>0.9.2</version>
+        <title>Chatty</title>
+        <authors>Chatty</authors>
+        <projectUrl>http://chatty.github.io</projectUrl>
+        <bugTrackerUrl>https://github.com/chatty/chatty/issues</bugTrackerUrl>
+        <tags>chatty livestreamer streamlink twitch</tags>
+        <summary>Chatty is a Twitch Chat Client for Desktop written in Java featuring many Twitch specific features. Standlone version.</summary>
+        <description>
+            Chatty is a Twitch Chat Client for Desktop written in Java featuring many Twitch specific features. Standalone version.
+        </description>
+        <releaseNotes></releaseNotes>
+        <iconUrl>https://chatty.github.io/icons2.png</iconUrl>
+        <licenseUrl>https://github.com/chatty/chatty/blob/master/LICENSE</licenseUrl>
+        <packageSourceUrl>https://github.com/MaryHal/chatty-package-source</packageSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
+</package>

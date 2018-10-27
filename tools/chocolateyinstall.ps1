@@ -1,7 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = "https://github.com/chatty/chatty/releases/download/v$($env:chocolateyPackageVersion)-emotefix/Chatty_$($env:chocolateyPackageVersion)-emotefix_windows_standalone_fixed.zip"
+$url        = "https://github.com/chatty/chatty/releases/download/v$($env:chocolateyPackageVersion)/Chatty_$($env:chocolateyPackageVersion)_win_standalone.zip"
+
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -11,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'chatty*'
 
-  checksum      = '00524c8d1a4f7dd7ea5673b6d1fcb1b19637aad07ad857f8330ef1f4978a1bb6'
+  checksum      = 'b57eb0e7d65f479e8088b3646726a24e57d9bbb4534d280dc42bcd4c77f1d848'
   checksumType  = 'sha256'
 }
 
