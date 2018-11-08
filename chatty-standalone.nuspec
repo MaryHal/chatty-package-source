@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
     <metadata>
-        <id>chatty-standalone</id>
-        <version>0.9.1</version>
-        <title>Chatty-standalone</title>
-        <authors>Chatty-standalone</authors>
+        <id>chatty</id>
+        <version>0.9.2</version>
+        <title>Chatty</title>
+        <authors>Chatty</authors>
         <projectUrl>http://chatty.github.io</projectUrl>
         <bugTrackerUrl>https://github.com/chatty/chatty/issues</bugTrackerUrl>
         <tags>chatty livestreamer streamlink twitch</tags>
@@ -15,9 +15,7 @@
         <releaseNotes></releaseNotes>
         <iconUrl>https://chatty.github.io/icons2.png</iconUrl>
         <licenseUrl>https://github.com/chatty/chatty/blob/master/LICENSE</licenseUrl>
-        <dependencies>
-            <dependency id="vcredist2015" version="14.0.24210.0" />
-        </dependencies>
+        <packageSourceUrl>https://github.com/MaryHal/chatty-package-source</packageSourceUrl>
     </metadata>
     <files>
         <file src="tools\**" target="tools" />
