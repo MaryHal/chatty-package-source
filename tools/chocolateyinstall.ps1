@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'chatty*'
 
-  checksum      = 'c54504732eccac907b0c3c89a13624e2f5b3b0629e13f6621f22830590699104'
+  checksum      = '67fc399507aa21252170f4ae1d13fea404512b42882e4ac7071cccdb6735c095'
   checksumType  = 'sha256'
 }
 
